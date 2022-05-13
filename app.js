@@ -1,5 +1,5 @@
  
-console.log("Welcome to notes app. This is app.js");
+// console.log("Welcome to notes app. This is app.js");
 showNotes();
 
 // If user adds a note, add it to the localStorage
@@ -15,7 +15,7 @@ btn.addEventListener("click", function(e) {
   notesObj.push(textarea.value);
   localStorage.setItem("notes", JSON.stringify(notesObj));
   textarea.value = "";
-  console.log(notesObj);
+  // console.log(notesObj);
   showNotes();
 });
 
@@ -61,7 +61,6 @@ function deleteNote(index) {
   else {
     notesObj = JSON.parse(notes);
   }
-
   notesObj.splice(index, 1);
   localStorage.setItem("notes", JSON.stringify(notesObj));
   showNotes();
@@ -82,7 +81,7 @@ search.addEventListener("input", function(){
         else{
             element.style.display = "none";
         }
-        console.log(cardTxt);
+        // console.log(cardTxt);
     });
 });
  

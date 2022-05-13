@@ -20,12 +20,18 @@
 #navbar {
     height: 8vh;
     padding: 2rem 2rem;
-    background-image: linear-gradient(to right, #d64f95da,#ffb5c3e5, #de7b69e0, #ffa95e99);
+    background-image: linear-gradient(to right, #fff7e0da,#ffb5c3e5, #fcaa7ae1, #ffa95e99);
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: 'Signika Negative', sans-serif;
-    
+}
+h1{
+    background: linear-gradient(to right, rgb(6, 89, 112), rgb(144, 126, 22), rgb(241, 139, 14), rgb(255, 66, 66), rgb(102, 33, 130), rgb(34, 129, 150)); 
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+            
 }
 /* search area */
 
